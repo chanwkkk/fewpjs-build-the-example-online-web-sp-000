@@ -17,7 +17,6 @@ mimicServerCall('http://mimicServer.example.com')
 
 function changeHeart(li){
   let span = li.childNodes[1]
-  debugger
   mimicServerCall()//how to handle mimicservercall???
   if (span.className=="activated-heart"){
     span.innerText = EMPTY_HEART
